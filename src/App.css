@@ -1,0 +1,81 @@
+body, html{
+  margin: 0;
+  padding: 0;
+  background-color: #06111d;
+  color: #fff;
+}
+
+.App {
+  text-align: center;
+  margin: 20px 160px;
+}
+
+table {
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 14px 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo-fallback{
+  font-size: 8px;
+  font-weight: bold;
+  background-color: #b877d4;
+  width: 39px;
+  height: 26px;
+  border-radius: 33px;
+  text-align: center;
+  padding-top: 13px;
+
+}
+
+.asset-logo{
+  width: 40px;
+  height: 40px;
+}
+
+.chain-selector {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.chain-button {
+  border: none;
+  background-color: #0000; /* Light grey */
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+  border: 3px solid #fff;
+  color: #fff;
+}
+
+.chain-button.selected {
+  border-color: #007bff; /* Bootstrap primary blue */
+}
+
+.chain-logo {
+  width: 30px;
+  height: 30px;
+}
+.chain-details{
+  width: 100px;
+}
+.fetchButton{
+    height: 30px;
+    border-radius: 5px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+}
+.addressInput{
+  padding: 0 5px;
+  height: 30px;
+  border-radius: 5px;
+  width: 50%;
+  margin-right: 5px;
+}
