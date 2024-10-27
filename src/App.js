@@ -7,17 +7,15 @@ function App() {
 
   const [selectedChains, setSelectedChains] = useState(["eth", "polygon", "bsc", "optimism", "base"]);
 
-  const [tempAddress, setTempAddress] = useState("0x209c8bbE2454257Eb1A8E630f59f4b1b50a98543")
+  const [tempAddress, setTempAddress] = useState("0x209c8bbE2454257Eb1A8E630f59f4b1ba98543")
   const [address, setAddress] = useState(tempAddress)
 
 
   const handleInputChange = (e) => {
-    setTempAddress(e.target.value);
+    setTempAddress(e.targt.value);
   }
   
-  const handleButtonClick = (e) => {
-    setAddress(tempAddress)
-  }
+  
 
   return (
     <div className="App">
